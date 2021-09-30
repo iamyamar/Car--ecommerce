@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+$bg-color: #14151b;
+$color: #5a6069;
+$font: "Oswald", sans-serif;
+
+.main {
+  padding: 80px 0;
+  background-color: $bg-color;
+  color: white;
+}
+.titlef {
+  padding-bottom: 80px;
+}
+.textcont {
+  max-width: 520px;
+}
+.backhead {
+  font-size: 120px;
+  color: $color;
+  text-align: center;
+  opacity: 0.1;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+  font-family: $font;
+  font-weight: 500;
+}
+.fronthead {
+  color: white;
+  text-align: center;
+  font-family: $font;
+  font-size: 36px;
+  font-weight: 200;
+  margin: -76px 0 0 0;
+  line-height: 1;
+}
+strong {
+  font-weight: 600;
+  display: block;
+}
+.imgcont {
+  padding-right: 30px;
+}
+.textcont {
+  padding-left: 30px;
+}
+.imagef {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+.texthead {
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.1;
+  color: $color;
+
+  .word1 {
+    display: block;
+    letter-spacing: -1px;
+  }
+  .word2 {
+    display: block;
+    font-size: 30px;
+    color: #e51515;
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
+  .word3 {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+}
+.firstp {
+  padding-bottom: 30px;
+  color: $color;
+  font-size: 13px;
+  line-height: 24px;
+}
+.second {
+  padding-bottom: 30px;
+  color: $color;
+  line-height: 24px;
+  font-size: 13px;
+}
+.name {
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  margin-bottom: 32px;
+  margin-top: 0;
+}

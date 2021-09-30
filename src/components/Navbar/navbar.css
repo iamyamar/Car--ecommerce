@@ -1,0 +1,41 @@
+.headbox {
+  height: 84px;
+  background-color: #22232b;
+  max-width: 100%;
+  border-bottom: 2px solid red;
+}
+.headder {
+  height: 84px;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainlogo {
+  margin-bottom: 0;
+  padding: 30.5px 0;
+}
+.linkhead {
+  color: white;
+  text-decoration: none;
+  padding: 0 18px;
+}
+.linkss {
+  padding: 30.5px 0;
+}
+.iconmain {
+  padding: 30.5px 0;
+  display: flex;
+  flex-direction: row;
+}
+.iconhead {
+  height: 50px;
+  width: 50px;
+}
+.linkdom {
+  text-decoration: none;
+}
+@media screen and (max-width: 941px) {
+  .linkss {
+    display: none;
+  }
+}
