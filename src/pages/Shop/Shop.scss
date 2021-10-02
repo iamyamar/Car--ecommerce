@@ -1,0 +1,21 @@
+.secondside {
+  display: block;
+  width: 262px;
+  height: 500px;
+}
+.secondmain {
+  display: block;
+  height: 500px;
+}
+
+.shopouterbox {
+  margin: 100px 200px;
+}
+@media screen and(max-width:990px) {
+  .shopouterbox {
+    margin: 10px 20px;
+  }
+  .secondside {
+    display: none;
+  }
+}

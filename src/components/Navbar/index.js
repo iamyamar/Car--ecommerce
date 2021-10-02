@@ -17,8 +17,8 @@ const index = () => {
             <img src={Logo} alt="logo" className="mainlogo" />
           </span>
           <span className="linkss">
-            <Link to="/" className="linkdom">
-              <a href="/" className="linkhead">
+            <Link to="/" className="linkdom ">
+              <a href="/" className="linkhead ">
                 HOME
               </a>
             </Link>
@@ -32,7 +32,7 @@ const index = () => {
                 FEATURED
               </a>
             </Link>
-            <Link to="/layouts" className="linkdom">
+            <Link to="/layout" className="linkdom">
               <a href="/" className="linkhead">
                 LAYOUTS
               </a>
